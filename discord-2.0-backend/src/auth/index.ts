@@ -4,7 +4,6 @@ export interface Credentials {
 }
 
 export interface Authenticated {
-  name: string;
   accessToken: string;
 }
 

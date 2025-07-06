@@ -9,15 +9,11 @@
 		"schemas": {
 			"Authenticated": {
 				"properties": {
-					"name": {
-						"type": "string"
-					},
 					"accessToken": {
 						"type": "string"
 					}
 				},
 				"required": [
-					"name",
 					"accessToken"
 				],
 				"type": "object",

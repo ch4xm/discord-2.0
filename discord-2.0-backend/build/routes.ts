@@ -18,7 +18,6 @@ const models: TsoaRoute.Models = {
     "Authenticated": {
         "dataType": "refObject",
         "properties": {
-            "name": {"dataType":"string","required":true},
             "accessToken": {"dataType":"string","required":true},
         },
         "additionalProperties": false,
